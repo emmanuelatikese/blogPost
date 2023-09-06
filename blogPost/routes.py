@@ -16,4 +16,4 @@ def viewBlogpage(): return render_template('viewBlog.html')
 
 
 @app.route('/updateBlog')
-def profileUpate(): return render_template('update.html')
+def profileUpdate(): return render_template('update.html')
