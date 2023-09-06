@@ -13,3 +13,7 @@ def createpage():return render_template('createBlog.html')
 
 @app.route('/viewBlog')
 def viewBlogpage(): return render_template('viewBlog.html')
+
+
+@app.route('/updateBlog')
+def profileUpate(): return render_template('update.html')
